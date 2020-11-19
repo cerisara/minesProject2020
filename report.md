@@ -18,6 +18,8 @@ Authors: John Doo and Marie Curie
 | git status   | git status     | git status    |
 | git diff     | git diff       | git diff      |
 
+- For a quotation with reference: "...the **go to** statement should be abolished..." [[1]](#1).
+
 - If you want a PDF version of your report, you may convert it with pandoc:
 
 ```
@@ -29,4 +31,10 @@ or, if you use the img tag, you have to first convert into pure html:
 ```
 pandoc -t html report.md | pandoc -f html -o report.pdf
 ```
+
+## References
+<a id="1">[1]</a> 
+Dijkstra, E. W. (1968). 
+Go to statement considered harmful. 
+Communications of the ACM, 11(3), 147-148.
 

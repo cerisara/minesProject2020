@@ -10,7 +10,7 @@ Authors: John Doo and Marie Curie
 
 - The syntax is very simple: it's just raw texts with special formatting for titles, images, equations, etc.
 - Get a look [here](https://www.markdownguide.org/cheat-sheet/) for a quick guide about the syntax
-- Including an image like this: ![](dephell.png) (*attribution: XKCD.com*)
+- Including an image like this: ![](dephell.png | width=100) (*attribution: XKCD.com*)
 - If you want a PDF version of your report, you may convert it with pandoc:
 
 ```
